@@ -81,7 +81,7 @@ public class EmpleadoBRTest {
     @Test
     public void testCalculaSalarioBruto10() {
         float resultadoReal = EmpleadoBR.calculaSalarioBruto(
-                EmpleadoBR.TipoEmpleado.venedor, 1500f, 1f);
+                EmpleadoBR.TipoEmpleado.venedor, 1500f, -1f);
         float resultadoEsperado = -1f;
         assertEquals(resultadoEsperado, resultadoReal, 0.01);
     }
